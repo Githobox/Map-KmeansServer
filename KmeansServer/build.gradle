@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'org.example'
-version = '1.0-SNAPSHOT'
+version = '1.0'
 
 repositories {
     mavenCentral()
@@ -20,6 +20,6 @@ test {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'MultiServer' // Nota: modificato il percorso della classe principale
+        attributes 'Main-Class': 'MultiServer'
     }
 }

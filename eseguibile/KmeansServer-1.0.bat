@@ -1,0 +1,1 @@
+java -jar KmeansServer-1.0.jar
